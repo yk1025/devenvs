@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  python: # アプリケーションサーバの設定
+    build: ./python
+    ports:
+      - 50000:8000 # 左がホストのポート番号(任意に変更)
+    tty: true
+    volumes:
+      - ./python/src:/code
+    
+volumes:
+  db_data: # データ永続化

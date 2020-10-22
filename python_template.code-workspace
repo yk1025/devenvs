@@ -1,0 +1,42 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		// {
+		// 	"path": "/usr/local/lib/python3.9/site-packages"
+		// }
+	],
+	"settings": {
+		"files.eol": "\n", // 改行コード
+		"editor.mouseWheelZoom": true,
+		"editor.renderWhitespace": "all",
+	},
+	"extensions": {
+		// 本体側に入れる拡張機能のrecommendation
+		// コンテナ側はdevcontainer.json
+		"recommendations": [
+			// 本体側に入れておけばコンテナにも効いてそうな拡張機能
+			"formulahendry.auto-close-tag",
+			"formulahendry.auto-rename-tag",
+			"coenraads.bracket-pair-colorizer-2",
+			"ms-vscode-remote.remote-containers",
+			// 一旦本体だけで良さそうな拡張機能
+			"pranaygp.vscode-css-peek",
+			"ecmel.vscode-html-css",
+			"yzane.markdown-pdf",
+			"ms-azuretools.vscode-docker",
+			// 本体・コンテナ両方に入れないといけない拡張機能
+			"wmaurer.change-case",
+			"streetsidesoftware.code-spell-checker",
+			"mhutchie.git-graph",
+			"eamodio.gitlens",
+			"oderwat.indent-rainbow",
+			"nickdemayo.vscode-json-editor",
+			"christian-kohler.path-intellisense",
+			"mechatroner.rainbow-csv",
+			"mosapride.zenkaku",
+			"sohamkamani.code-eol"
+		]
+	},
+}
