@@ -1,2 +1,5 @@
 # devenvs
-開発環境用設定ファイル類を管理するリポジトリ
+このブランチではvscode + remote container + docker環境でpython開発を行う際の、設定テンプレート類を管理する。
+
+## 開発に入る前に
+
