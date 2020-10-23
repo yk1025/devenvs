@@ -8,9 +8,27 @@
 		// }
 	],
 	"settings": {
-		"files.eol": "\n", // 改行コード
+		// エディタ設定
+		"diffEditor.ignoreTrimWhitespace": false,
+		"editor.folding": true,
+		"editor.fontSize": 14,
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.insertSpaces": true,
+		"editor.minimap.enabled": false,
 		"editor.mouseWheelZoom": true,
+		"editor.renderControlCharacters": true,
 		"editor.renderWhitespace": "all",
+		"files.eol": "\n",
+		"files.insertFinalNewline": true,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": true,
+		"json.maxItemsComputed": 10000,
+		"terminal.integrated.scrollback": 20000000,
+		"window.zoomLevel": 0,
+		"workbench.editor.enablePreview": false,
+		// markdown
+		"markdown.preview.breaks": true,
 	},
 	"extensions": {
 		// 本体側に入れる拡張機能のrecommendation
@@ -38,5 +56,5 @@
 			"mosapride.zenkaku",
 			"sohamkamani.code-eol"
 		]
-	},
+	}
 }

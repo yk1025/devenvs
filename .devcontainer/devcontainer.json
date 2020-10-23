@@ -26,6 +26,7 @@
 	"extensions": [
 		// コンテナだけでよさそうな拡張機能
 		"ms-python.python",
+		"njpwerner.autodocstring"
 		// 本体・コンテナ両方に入れておく拡張機能
 		"wmaurer.change-case",
 		"streetsidesoftware.code-spell-checker",
@@ -36,7 +37,7 @@
 		"christian-kohler.path-intellisense",
 		"mechatroner.rainbow-csv",
 		"mosapride.zenkaku",
-		"sohamkamani.code-eol"
+		"sohamkamani.code-eol",
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
