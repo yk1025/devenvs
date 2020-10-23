@@ -24,7 +24,6 @@
 		"njpwerner.autodocstring",
 		// 本体・コンテナ両方に入れておく拡張機能
 		"wmaurer.change-case",
-		"streetsidesoftware.code-spell-checker",
 		"mhutchie.git-graph",
 		"eamodio.gitlens",
 		"oderwat.indent-rainbow",
