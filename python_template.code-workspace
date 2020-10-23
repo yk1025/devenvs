@@ -29,6 +29,13 @@
 		"workbench.editor.enablePreview": false,
 		// markdown
 		"markdown.preview.breaks": true,
+		// python
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": false,
+		"python.linting.flake8Enabled": true,
+		"python.linting.lintOnSave": true,
+		"python.formatting.provider": "black",
+		"autoDocstring.docstringFormat": "google",
 	},
 	"extensions": {
 		// 本体側に入れる拡張機能のrecommendation
