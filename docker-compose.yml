@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  vuejs: # アプリケーションサーバの設定
+    build: ./vuejs/docker
+    ports:
+      - 50001:8080 # 左がホストのポート番号(任意に変更)
+    tty: true
+    volumes:
+      - ./vuejs/src:/code
+    # command: /bin/sh
