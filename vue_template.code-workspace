@@ -23,6 +23,13 @@
 		"json.maxItemsComputed": 10000,
 		"terminal.integrated.scrollback": 20000000,
 		"window.zoomLevel": 0,
+		// ワークスペースの色付け。複数windowを開く時用に
+		// "workbench.colorCustomizations": {
+		// 	"titleBar.activeBackground": "#FFD700",
+		// 	"titleBar.activeForeground": "#000000",
+		// 	"activityBar.background": "#FFD700",
+		// 	"activityBar.foreground": "#000000"
+		// },
 		"workbench.editor.enablePreview": false,
 		// markdown
 		"markdown.preview.breaks": true,
@@ -43,7 +50,6 @@
 			"ms-azuretools.vscode-docker",
 			// 本体・コンテナ両方に入れないといけない拡張機能
 			"wmaurer.change-case",
-			"streetsidesoftware.code-spell-checker",
 			"mhutchie.git-graph",
 			"eamodio.gitlens",
 			"oderwat.indent-rainbow",
@@ -51,7 +57,10 @@
 			"christian-kohler.path-intellisense",
 			"mechatroner.rainbow-csv",
 			"mosapride.zenkaku",
-			"sohamkamani.code-eol"
+			"sohamkamani.code-eol",
+			"emilast.logfilehighlighter",
+			"ibm.output-colorizer",
+			"fabiospampinato.vscode-todo-plus"
 		]
 	}
 }
