@@ -7,6 +7,8 @@
 
 ### vscode起動後
 1. 設定値の変更
+    - docker-compose.yml  
+    services名を変更
     - .devcontainer\docker-compose.yml  
     service名を変更
     - .devcontainer\devcontainer.json  
