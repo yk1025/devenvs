@@ -14,3 +14,5 @@
     - .devcontainer\devcontainer.json  
     nameを変更  
     service名を変更
+    - vetur.config.js  
+    vuejsのrootディレクトリを変更
