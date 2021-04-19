@@ -20,6 +20,6 @@
 ### トラブルシューティング
 1. vue-cli-service: not foundと言われる場合  
 以下コマンドを実行する
-```
-rm -rf node_modules package-lock.json && npm install
-```
+    ```
+    rm -rf node_modules package-lock.json && npm install
+    ```
