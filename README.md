@@ -16,3 +16,10 @@
     service名を変更
     - vetur.config.js  
     vuejsのrootディレクトリを変更
+
+### トラブルシューティング
+1. vue-cli-service: not foundと言われる場合  
+以下コマンドを実行する
+```
+rm -rf node_modules package-lock.json && npm install
+```
