@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  main:
+    # アプリケーションサーバの設定
+    build: ./src/docker
+    ports:
+      - 50001:8080 # 左がホストのポート番号(任意に変更)
+    tty: true
+    volumes:
+      - ./src/src:/code
+    # command: /bin/sh
